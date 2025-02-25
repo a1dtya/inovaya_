@@ -1,0 +1,124 @@
+{
+    "teamMembers": [
+      {
+        "name": "John Doe",
+        "position": "Director",
+        "linkedin": "https://www.linkedin.com/in/johndoe",
+        "email": "john.doe@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Jane Smith",
+        "position": "Chief Executive Officer",
+        "linkedin": "https://www.linkedin.com/in/janesmith",
+        "email": "jane.smith@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Mark Wilson",
+        "position": "Executive Manager",
+        "linkedin": "https://www.linkedin.com/in/markwilson",
+        "email": "mark.wilson@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Emily Adams",
+        "position": "Head of Department",
+        "linkedin": "https://www.linkedin.com/in/emilyadams",
+        "email": "emily.adams@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Robert White",
+        "position": "Executive Manager",
+        "linkedin": "https://www.linkedin.com/in/robertwhite",
+        "email": "robert.white@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Linda Brown",
+        "position": "Head of Department",
+        "linkedin": "https://www.linkedin.com/in/lindabrown",
+        "email": "linda.brown@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Michael Green",
+        "position": "Manager",
+        "linkedin": "https://www.linkedin.com/in/michaelgreen",
+        "email": "michael.green@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Alice Johnson",
+        "position": "Manager",
+        "linkedin": "https://www.linkedin.com/in/alicejohnson",
+        "email": "alice.johnson@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Chris Lee",
+        "position": "Manager",
+        "linkedin": "https://www.linkedin.com/in/chrislee",
+        "email": "chris.lee@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Olivia Harris",
+        "position": "Executive Assistant",
+        "linkedin": "https://www.linkedin.com/in/oliviaharris",
+        "email": "olivia.harris@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "David Carter",
+        "position": "Head of Department",
+        "linkedin": "https://www.linkedin.com/in/davidcarter",
+        "email": "david.carter@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Sophia Martinez",
+        "position": "Manager",
+        "linkedin": "https://www.linkedin.com/in/sophiamartinez",
+        "email": "sophia.martinez@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "William Scott",
+        "position": "Executive Assistant",
+        "linkedin": "https://www.linkedin.com/in/williamscott",
+        "email": "william.scott@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Isabella Moore",
+        "position": "Manager",
+        "linkedin": "https://www.linkedin.com/in/isabellamoore",
+        "email": "isabella.moore@example.com",
+        "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Ethan Taylor",
+        "position": "Executive Manager",
+        "linkedin": "https://www.linkedin.com/in/ethantaylor",
+        "email": "ethan.taylor@example.com",
+         "image": "/images/team1.jpg"
+      },
+      {
+        "name": "Mia Rodriguez",
+        "position": "Director",
+        "linkedin": "https://www.linkedin.com/in/miarodriguez",
+        "email": "mia.rodriguez@example.com",
+           "image": "/images/team1.jpg"
+      },
+      {
+        "name": "James Lee",
+        "position": "Chief Executive Officer",
+        "linkedin": "https://www.linkedin.com/in/jameslee",
+        "email": "james.lee@example.com",
+           "image": "/images/team1.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,26 @@
+{
+    
+    "certificates": [
+        {
+            "images": "/images/certificate1.png",
+            "text": "asdasjxhasbxsabxhbsjas.png",
+            "description": "asdasduasidbsadbasbdjsahdvasjdvsajdsa"
+            
+            
+          },
+          {
+            "images": "/images/certificate1.png",
+              "text": "asdasdasdasdxsabxhbsjas.png",
+            "description": "asdasduasidbsadbasbdjsahdvasjdvsajdsa"
+            
+          },
+     
+          {
+            "images": "/images/certificate1.png",
+              "text": "asdasdasdaabxhbsjas.png",
+            "description": "asdasduasidbsadbasbdjsahdvasjdvsajdsa"
+            
+          }
+    ]
+  }
+  

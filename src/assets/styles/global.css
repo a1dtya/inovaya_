@@ -1,0 +1,699 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+#root{
+
+    width: 100%;
+    height: 100%;
+
+}
+:root{
+
+
+    --primary-white:#ffffff;  
+    --blue2: #51aed1;
+    --transparent: #ffffff00;
+    --dark-blue-2: #003399;
+
+    --darkblue:#010440;
+    --green-color:#1FA00A;
+    --purple-color:#5C0F87;
+  --color3:#01498499;
+    --font-large: 18px;
+    --font-normal: 18px;
+    --font-small: 16px;
+
+    width: 100%;
+    height: 100%;
+
+
+
+
+
+}
+
+
+@font-face{
+    font-family:"Roboto";
+    src: url('../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family:"Roboto-thin";
+    src: url('../fonts/Roboto/static/Roboto-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"Roboto-bold";
+    src: url('../fonts/Roboto/static/Roboto-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family:"Roboto-italics";
+    src: url('../fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+
+
+@font-face{
+    font-family:"Nunito";
+    src: url('../fonts/Nunito/Nunito-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"Nunito-bold";
+    src: url('../fonts/Nunito/static/Nunito-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"Nunito-thin";
+    src: url('../fonts/Nunito/static/Nunito-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face{
+    font-family:"Nunito-italics";
+    src: url('../fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto-thin";
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: "Nunito-thin";
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    overflow-x: hidden;
+}
+/* 
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+
+
+
+.header-list-link{
+    font-family: "Roboto";
+    font-size: 16px;
+
+}
+
+.header-list-link-right li{
+    font-family: "Roboto";
+    align-items: center;
+    display: flex;
+    margin: 0 0px;
+    font-size: 16px;
+}
+
+
+
+
+
+/* about banner */
+
+.about-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/banner1.webp') left no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.about-banner-gradient-bg {
+    position: absolute;
+    inset: 0; 
+    z-index: 0;
+    background-image: linear-gradient(90deg, #039 .51%, #55c1d9 99.89%);
+    opacity: 0.8; 
+}
+
+.about-banner-text {
+    font-family: "Roboto-thin";
+    font-size: 49px !important;
+    color: white;
+    line-height: 1;
+}
+
+.about-banner-text span {
+    font-weight: 300;
+    font-family: "Roboto-italics";
+}
+
+
+
+
+
+.btn-primary {
+    border-radius: 1.5rem;
+    display: flex;
+    gap: .5rem;
+    position: relative;
+    width: fit-content;
+    background-color: rgba(163, 255, 167, 1);
+    color: rgba(1, 4, 64, 1);
+    font-family: Roboto;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding: .75rem 22px;
+    border: 2px solid rgba(181, 255, 184, 1);  /* Add border to the button itself */
+    transition: background-color 1s ease, color 1s ease, border-color 1s ease;
+}
+
+.btn-primary:hover {
+    background-color: rgba(3, 66, 93, .7);
+    color: rgba(181, 255, 184, 1);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-color: rgba(3, 66, 93, .7);  /* Change border color on hover */
+    transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+}
+
+.btn-primary:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 9999px;
+    mask-image: conic-gradient(from 0deg, transparent 100%, #000 100%);
+    -webkit-mask-image: conic-gradient(from 0deg, transparent 100%, #000 100%);
+    transition: mask-image 1s ease;
+}
+
+.btn-primary:hover:after {
+    mask-image: conic-gradient(from 0deg, transparent 100%, #000 0%);
+    -webkit-mask-image: conic-gradient(from 0deg, transparent 100%, #000 0%);
+}
+
+
+
+
+
+
+
+.btn-primary-green {
+    border-radius: 1.5rem;
+    display: flex;
+    gap: .5rem;
+    position: relative;
+    width: fit-content;
+    background-color: rgba(144, 238, 144, 1); /* Light green background */
+    color: rgba(0, 100, 0, 1); /* Dark green text */
+    font-family: Roboto;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding: .75rem 22px;
+    border: 2px solid transparent; /* Transparent border initially */
+    transition: background-color 1s ease, color 1s ease;
+    overflow: hidden; /* Ensure the pseudo-element doesn't overflow */
+}
+
+.btn-primary-green::before {
+    content: "";
+    position: absolute;
+    top: -2px; /* Adjust for border width */
+    left: -2px; /* Adjust for border width */
+    right: -2px; /* Adjust for border width */
+    bottom: -2px; /* Adjust for border width */
+    border-radius: 1.5rem;
+    background: conic-gradient(
+        from 0deg at 50% 50%,
+        rgba(0, 128, 0, 1) 0%,
+        rgba(0, 128, 0, 1) 25%,
+        rgba(0, 128, 0, 1) 50%,
+        rgba(0, 128, 0, 1) 75%,
+        rgba(0, 128, 0, 1) 100%
+    );
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: xor;
+    z-index: -1; /* Ensure it stays behind the button */
+    transform: rotate(0deg);
+    transition: transform 2s linear;
+}
+
+.btn-primary-green:hover::before {
+    transform: rotate(-360deg); /* Rotate anticlockwise */
+    transition: transform 2s linear;
+}
+
+.btn-primary-green:not(:hover)::before {
+    transform: rotate(0deg); /* Reverse animation on hover end */
+    transition: transform 2s linear;
+}
+
+/* btn-reverse */
+
+.btn-reverse {
+    background-color: rgba(255, 255, 255, 0.4); 
+    border-radius: 1.5rem;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem; 
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding: 0.75rem 22px;
+    position: relative;
+    width: fit-content;
+    color: rgba(1, 4, 64, 1); 
+    
+    /* Blur effect */
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.btn-reverse::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 2px solid transparent; 
+    
+    mask-image: conic-gradient(
+        from 0deg,
+        transparent 0%,
+        transparent 100%
+    );
+    -webkit-mask-image: conic-gradient(
+        from 0deg,
+        transparent 0%,
+        transparent 100%
+    );
+
+    transition: mask-image 1s linear, -webkit-mask-image 1s linear;
+}
+
+.btn-reverse:hover::after {
+    border-color: transparent;
+
+    mask-image: conic-gradient(
+        from 0deg,
+        #ff5733 0%, 
+        #ffbd33 75%,   
+        #ff5733 100%   
+    );
+    -webkit-mask-image: conic-gradient(
+        from 0deg,
+        #ff5733 0%,    
+        #ffbd33 75%,   
+          
+        #ff5733 100%   
+    );
+}
+
+
+
+
+
+/* about-scrolling-banner */
+
+
+.wrapper-scrolling-bar{
+    overflow: hidden;
+    background: var(--transparent);
+    position: relative;
+    padding: 100px 0;
+
+}
+
+
+@keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 10s linear infinite;
+    transition: all 0.5s;
+  }
+  
+  .change-text-banner{
+    font-size: 58px;
+    font-family: "Roboto-thin";
+    color: var(--blue2) ;
+    transition: all 0.1s ease-in-out;
+
+  }
+
+  .about-modal-text{
+    font-style: italic;
+    font-size: 58px;
+    font-family: "Roboto-thin";
+    color: var(--blue2) ;
+  }
+
+
+  .about-banner-modal {
+    position: fixed;
+    top: 0;
+    right: 0; /* Keep it at the right edge */
+    width: 50%;
+    height: 100%;
+    background: white;
+    z-index: 50;
+    box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transform: translateX(100%); /* Start hidden outside the screen */
+}
+
+.about-banner-modal.open {
+    transform: translateX(0);
+}
+
+
+
+
+
+/* mission */
+
+
+
+.mission-overlay
+{
+    position:absolute;
+    z-index: 1;
+    background-image: linear-gradient(180deg, #039 .01%, #3b96c6 69.83%, #55c1d9);
+}
+.mission-text{
+    font-size: 46px !important;
+    line-height: 1.5 !important;
+}
+
+.clip-hexagon { 
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    transform: rotate(90deg);
+  }
+ 
+
+
+
+  /* .clip-hexagon {
+    width: 70px; 
+    height: 70px;
+    background-color: #003399;
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M25,5 Q50,-5 75,5 L95,45 Q100,50 95,55 L75,95 Q50,105 25,95 L5,55 Q0,50 5,45 Z" fill="black"/></svg>');
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M25,5 Q50,-5 75,5 L95,45 Q100,50 95,55 L75,95 Q50,105 25,95 L5,55 Q0,50 5,45 Z" fill="black"/></svg>');
+    transform: rotate(90deg);
+} */
+
+
+  .clip-trapezium {
+    clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+    border-radius: 30px;
+  }
+  
+
+
+
+
+.bottomsvg::after{
+    bottom: 0;
+    right: 0;
+    content: "our Mission";
+    display: block;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+  /* projects */
+  .project-info-wrapper
+{
+display: flex;
+min-width: 450px;
+flex-direction: row;
+justify-content: start;
+padding-right: 50px;
+border-bottom: 2px solid #3c3c3c6b ;
+padding-bottom: 20px;
+}
+ .projects-icon {
+    margin-right: 20px;
+    font-size: 40px;
+    color: #51aed1;
+    align-items: center;
+    display: flex;
+
+  }
+
+  .projects-info{
+    margin: 0 50px 10px 20px;
+  }
+
+
+  .commitment-title {
+    font-size: 47px;
+    color: #000000;
+    font-family: "Roboto-thin";
+
+  }
+  .commitment-title span{
+    font-size: 47px;
+    color: #51aed1;
+    font-style: italic;
+    
+}
+
+
+.commitment-description strong{ 
+font-weight: bold;
+color: var(darkblue);
+}
+
+.allies-title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.allies-title strong{
+    font-style: italic;
+    color: #51aed1;
+}
+
+.allies-grid-box{
+    background: #51afd116;
+    border-color: #51aed1;
+}
+
+
+
+
+/* history */
+
+
+
+.history{
+
+    padding: 50px 0px;
+
+    background: linear-gradient(to bottom,#76d0f134, rgba(255, 255, 255, 0.18));
+}
+
+
+.swiper-slide{
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 30px;
+    /* width: 400px; */
+    max-width: 500px;
+    height: auto;
+    background-color: #49bce724;
+    opacity: 1;
+}
+
+
+
+
+
+.certificate-title strong{
+    color: #51aed1;
+    font-style: italic;  
+    align-items: center;
+    /* display: ; */
+
+    justify-content: center;
+
+}
+
+
+
+
+.certificate{
+
+    padding: 50px 0px;
+
+    background: transparent;
+}
+
+
+
+.swiper-wrapper-certificate {
+
+}
+.swiper-slide-certificate{
+    /* height: 200px; */
+    padding: 50px;
+    border-radius:20px ;
+    background-color: #63d0f836;
+}
+
+
+.svg-rotate{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+/* team */
+
+
+.left-filter {
+    position: sticky;
+    top: 0;  /* This will make it stick to the top when scrolling */
+    height: 100vh; /* Make sure the filter div takes up the full height of the viewport */
+    overflow-y: auto; /* Enable scrolling for filter if the content overflows */
+    padding: 10px;  /* Add some padding for better spacing */
+    background-color: white;  /* Add background color for contrast */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer */
+
+.footer-col-5-header, .footer-col-4-header, .footer-col-3-header,
+.footer-col-2-header{
+
+    font-size: 24px;
+    font-family: "Nunito-thin";
+    color: var(--dark-blue-2);
+    display: flex;
+    justify-content: left;
+
+}
+  .footer-li li{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    margin: 24px 0 0;
+    font-size: 18px;
+    color: var(--darkblue);
+    font-family: "Nunito-thin";
+  }
+
+  .footer-li li:hover{
+    
+    color: var(--dark-blue-2);
+  }
