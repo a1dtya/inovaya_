@@ -49,7 +49,7 @@ export default function Header() {
         <div className="hidden md:flex flex-row items-center space-x-4">
           {/* Navigation Links */}
           <nav className="flex flex-row items-center space-x-4">
-            <Link href="/about" className="hover:text-gray-300 flex items-center space-x-1">
+            <Link href="/about-us" className="hover:text-gray-300 flex items-center space-x-1">
               <span>Your Needs</span>
               <MdOutlineKeyboardArrowDown className="text-[25px]" />
             </Link>
